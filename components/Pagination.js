@@ -32,7 +32,7 @@ function Pagination({ postsPerPage, item, paginate }) {
             </a>
           </li>
           {pageNumbers.map((number) => {
-            console.log("num", number);
+         
             return (
               <li key={number}>
                 <a

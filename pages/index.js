@@ -24,7 +24,7 @@ export default function Home({ data }) {
   const onChangeCounter = (event) => {
     setPostsPerPage(event.target.value);
   };
-  console.log("data", data);
+
   return (
     <div className="bg-blue-50">
       <Head>

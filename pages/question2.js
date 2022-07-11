@@ -48,7 +48,7 @@ export default function question2({ data }) {
       }
     }
   };
-  console.log("datae", dataNow);
+
   return (
     <div className="bg-blue-50">
       <Head>
@@ -61,7 +61,7 @@ export default function question2({ data }) {
         <div class="flex space-x-60">
           <h1 className="text-gray-700 text-lg">Question2</h1>
           <div class="flex space-x-72"></div>
-        
+
           <div class="flex justify-center">
             <div class="mb-3 xl:w-96">
               <div class="input-group relative flex flex-wrap items-stretch w-full mb-4">
@@ -175,7 +175,7 @@ export default function question2({ data }) {
           />
 
           <div class="flex space-x-24">
-          <div class="flex space-x-20"/>
+            <div class="flex space-x-20" />
             <div>
               {" "}
               <h1>Show</h1>
